@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <div className="TitleSection">
         <h1>Pokemon</h1>
+        <input type="text" />
       </div>
     </div>
   );
