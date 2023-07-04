@@ -7,6 +7,7 @@ function App() {
       <div className="TitleSection">
         <h1>Pokemon</h1>
         <input type="text" />
+        <button>Search Pokemon</button>
       </div>
     </div>
   );
