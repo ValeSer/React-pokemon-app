@@ -28,3 +28,15 @@ body {
   font-size: 18px;
   padding-left: 10px;;
 }
+
+.TitleSection button {
+  width: 180px;
+  height: 60px;
+  margin: 20px;
+  border-radius: 18px;
+  border: 1px solid rgb(7, 64, 7);
+  font-size: 18px;
+  color: whitesmoke;
+  padding-left: 10px;
+  background-color: rgb(57, 190, 170);
+}
