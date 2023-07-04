@@ -4,7 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      Pokemon
+      <div className="TitleSection">
+        <h1>Pokemon</h1>
+      </div>
     </div>
   );
 }
