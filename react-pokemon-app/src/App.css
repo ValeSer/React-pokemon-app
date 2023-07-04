@@ -19,3 +19,12 @@ body {
   color: white;
   flex-direction: column;
 }
+
+.TitleSection input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid rgb(19, 228, 36);
+  font-size: 18px;
+  padding-left: 10px;;
+}
