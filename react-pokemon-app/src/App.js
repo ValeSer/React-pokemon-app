@@ -17,7 +17,11 @@ function App() {
         name: pokemonName, 
         species: response.data.species.name, 
         img: response.data.sprites.front_default,
-        hp: response.data.stats[0].base_stats})
+        hp: response.data.stats[0].base_stats,
+        attack: response.data.stats[1].base_stats,
+        defense: response.data.stats[2].base_stats,
+        type: response.data.types[0].type.name,
+      })
     });
   }
 
