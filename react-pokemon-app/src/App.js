@@ -4,7 +4,15 @@ import Axios from "axios";
 
 function App() {
   const [pokemonName, setPokemonName] = useState('');
-  const [pokemon, setPokemon] = useState({});
+  const [pokemon, setPokemon] = useState({
+    name: '', 
+    species: '', 
+    img: '', 
+    hp: '', 
+    attack: '', 
+    defense: '', 
+    type: '', 
+  });
 
   const onInput = (event) => {
     setPokemonName(event.target.value);
