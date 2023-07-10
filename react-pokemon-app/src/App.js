@@ -31,7 +31,7 @@ function App() {
         defense: response.data.stats[2].base_stats,
         type: response.data.types[0].type.name,
       });
-      
+      setPokemonChosen(!pokemonChosen);
     });
   }
 
