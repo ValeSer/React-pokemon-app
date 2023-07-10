@@ -32,6 +32,9 @@ function App() {
         <input type="text" onChange={onInput} placeholder='Name...'/>
         <button onClick={searchPokemon}>Search Pokemon</button>
       </div>
+      <div className='DisplaySection'>
+
+      </div>
     </div>
   );
 }
