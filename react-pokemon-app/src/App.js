@@ -4,6 +4,7 @@ import Axios from "axios";
 
 function App() {
   const [pokemonName, setPokemonName] = useState('');
+  const [pokemonChosen, setPokemonChosen] = useState(false);
   const [pokemon, setPokemon] = useState({
     name: '', 
     species: '', 
@@ -29,7 +30,8 @@ function App() {
         attack: response.data.stats[1].base_stats,
         defense: response.data.stats[2].base_stats,
         type: response.data.types[0].type.name,
-      })
+      });
+      
     });
   }
 
