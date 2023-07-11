@@ -47,3 +47,9 @@ body {
 .TitleSection button:hover {
   cursor: pointer;
 }
+
+.DisplaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
