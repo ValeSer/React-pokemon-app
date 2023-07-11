@@ -46,7 +46,10 @@ function App() {
         {!pokemonChosen ? (
         <h1>Please choose Pokemon</h1>
         ) : (
-        <h1>{pokemonName}</h1>
+        <>
+          <h1>{pokemon.name}</h1>
+          <img src={pokemon.img}/>
+        </>
         )}
       </div>
     </div>
