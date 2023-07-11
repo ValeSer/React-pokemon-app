@@ -18,6 +18,8 @@ body {
   align-items: center;
   color: white;
   flex-direction: column;
+  align-items: center;
+  color: white;
 }
 
 .TitleSection input {
