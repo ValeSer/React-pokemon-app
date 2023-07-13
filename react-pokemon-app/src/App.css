@@ -57,3 +57,7 @@ body {
 .DisplaySection h4, h3 {
   margin: 5px;
 }
+
+.DisplaySection img {
+  width: 200px;
+}
