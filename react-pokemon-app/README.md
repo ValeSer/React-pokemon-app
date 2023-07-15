@@ -1,3 +1,8 @@
+# Pokemon React Web application 
+
+This is a web app built using Pokemon API and you can see the data about a specific Pokemon, displayed in your screen
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
