@@ -39,7 +39,9 @@ function App() {
     <div className="App">
       <div className="TitleSection">
         <h1>Pokemon</h1>
-        <input type="text" onChange={onInput} placeholder='Name...'/>
+        <input type="text" 
+          onChange={onInput} 
+          placeholder='Name...'/>
         <button onClick={searchPokemon}>Search Pokemon</button>
       </div>
       <div className='DisplaySection'>
@@ -48,7 +50,7 @@ function App() {
         ) : (
         <>
           <h1>{pokemon.name}</h1>
-          <img src={pokemon.img}/>
+          <img src={pokemon.img} alt=''/>
           <h3>Species: {pokemon.species}</h3>
           <h3>Type: {pokemon.type}</h3>
           <h4>Hp: {pokemon.hp}</h4>
