@@ -43,10 +43,12 @@ function App() {
     <div className="App">
       <div className="TitleSection">
         <h1>Pokemon</h1>
-        <input type="text" 
-          onChange={onInput} 
-          placeholder='Name...'/>
-        <button onClick={searchPokemon}>Search Pokemon</button>
+        <form onSubmit={handleSubmit}>
+          <input type="text" 
+            onChange={onInput} 
+            placeholder='Name...'/>
+          <button onClick={searchPokemon}>Search Pokemon</button>
+        </form>
       </div>
       <div className='DisplaySection'>
         {!pokemonChosen ? (
