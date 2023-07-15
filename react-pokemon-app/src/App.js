@@ -34,6 +34,10 @@ function App() {
       setPokemonChosen(!pokemonChosen);
     });
   }
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    searchPokemon();
+  } 
 
   return (
     <div className="App">
