@@ -1,6 +1,6 @@
 # Pokemon React Web application 
 
-This is a web app built using Pokemon API and you can see the data about a specific Pokemon, displayed in your screen
+This is a web app that uses the Pokémon API to display data about a specific Pokémon. The app allows users to enter the name of a Pokémon in the input field, and when they click the "Search Pokemon" button or press "Enter," it fetches the data from the API and displays it on the screen.
 
 
 ## Getting Started with Create React App
