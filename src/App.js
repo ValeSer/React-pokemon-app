@@ -22,6 +22,7 @@ function App() {
   const searchPokemon = () => {
     Axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`)
     .then((response) => {
+      if(response.status !== 200)throw new Error('Failed to fetch');
       setPokemon({
         name: pokemonName, 
         species: response.data.species.name, 
@@ -30,7 +31,7 @@ function App() {
         attack: response.data.stats[1].base_stat,
         defense: response.data.stats[2].base_stat,
         type: response.data.types[0].type.name,
-      });
+      })
       setPokemonChosen(!pokemonChosen);
     });
   }
